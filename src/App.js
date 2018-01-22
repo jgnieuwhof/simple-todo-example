@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header showLogo={true} />
         <Main />
       </div>
     );
